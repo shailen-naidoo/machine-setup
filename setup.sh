@@ -18,5 +18,5 @@ nvm install --lts
 nvm use --lts
 
 # Setup for Git
-git config --global user.name "Shailen Naidoo"
-git config --global user.email "naidooshailen648@gmail.com"
+git config --global user.name "${GIT_USER_NAME}"
+git config --global user.email "${GIT_USER_EMAIL}"
